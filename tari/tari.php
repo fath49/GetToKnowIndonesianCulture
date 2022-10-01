@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Daerah</title>
+    <link rel="stylesheet" href="style-tari.css">
+</head>
+<body>
+    <?php echo "<img src='hider-tari-fix.png'/>";?>
+
+    <nav class="menu">
+        <div class="brand">
+            <h1>PULAU</h1>
+        </div>
+        <ul class="menu-list">
+            <!-- 'li*4>a' munculin li 4x scr auto-->
+            <li><a href="#sumatera">SUMATERA</a></li>
+            <li><a href="#jawa">JAWA</a></li>
+            <li><a href="#ntbali">Nusa Tenggara & Bali</a></li>
+            <li><a href="#kalimantan">KALIMANTAN</a></li>
+            <li><a href="#sulawesi">SULAWESI</a></li>
+            <li><a href="#malpu">MALUKU & PAPUA</a></li>
+        </ul>
+    </nav>
+
+    <div class="deskripsi">
+        <h2>
+            Seni tari adalah seni yang mengekspresikan nilai batin melalui gerak yang indah dari tubuh/fisik dan mimik.<br/> 
+            Seni tari secara umum memiliki aspek-aspek gerak, ritmis, keindahan, dan ekspresi.<br/>
+            Selain itu, seni tari memilki unsur-unsur ruang, tenaga, dan waktu.<br/>
+        </h2>
+        <h2>
+            Indonesia memiliki banyak suku dari berbagai daerah, begitupun dengan tarian yang mereka miliki dari tiap-tiap daerah,<br?>
+            berikut ialah beberapa contoh tarian daerah dari berbagai provinsi disertai dengan gambarnya.
+        </h2>
+    </div>
+    <div class="read-more-container">
+        <?php echo "<img src='bg-sumatera.png' width='70' height='90'/>";?>
+        <section id ="sumatera">
+            <div class="service">
+                <h3>Tari Saman</h3>
+                <img src="1 Aceh - Tari Saman.jpg"/>
+                <p>Aceh</p>
+                <p1>
+                    Ditampilkan untuk merayakan peristiwa-peristiwa </br>
+                    <span class="read-more-text">
+                        penting dalam kegiatan adat, keluarga dan pemerintahan, tari saman termasuk dalam Daftar Warisan Dunia Takbenda UNESCO yang ditetapkan di Bali pada 24 November 2011.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Seudati</h3>
+                <img src="1 Aceh - Seudati.jpg"/>
+                <p>Aceh</p>
+                <P1>
+                    Tarian ini biasanya ditarikan oleh sekelompok penari </br>
+                    <span class="read-more-text">
+                        pria dengan gerakannya yang khas dan enerjik serta diiringi oleh lantunan syair dan suara hentakan para penari. Sering ditampilkan di berbagai acara, baik acara adat, acara pertunjukan, dan acara budaya.
+                    </span>
+                </P1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Tor-Tor</h3>
+                <img src="2 Sumatera Utara - Tor-tor.jpg"/>
+                <p>Sumatera Utara</p>
+                <p1>
+                    Tari tortor menjadi bagian penting dalam adat suku </br>
+                    <span class="read-more-text">
+                        Batak, baik dalam acara adat pernikahan ataupun pentas seni di seluruh Indonesia. Melalui tarian ini lah masyarakat adat Batak menyampaikan harapan dan seluruh doa-doanya.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Serampang Dua Belas</h3>
+                <img src="2 Sumatra Utara - Tari Serampang Dua Belas.jpg"/>
+                <p>Sumatera Utara</p>
+                <p1>
+                    Pencipta daripada tari Serampang 12 ialah Guru Sauti. </br>
+                    <span class="read-more-text">
+                        Beliau lahir pada tahun 1903 di Pantai Cermin Sumatra Timur. Gerakan tari Serampang 12 merupakan perpaduan dari gerak Melayu Deli dengan dua belas macam gerakan yang dimiliki.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Piring</h3>
+                <img src="3 Sumatra Barat - Tari Piring.jpg"/>
+                <p>Sumatera Barat</p>
+                <p1>
+                    Tari ini dipopulerkan oleh Huriah Adam. Saat ini, tari </br>
+                    <span class="read-more-text">
+                        piring dipertunjukkan untuk penyambutan tamu terhormat atau pembukaan upacara adat. Gerakannya diambil dari langkah dalam silat Minangkabau atau silek. Tarian ini diiringi oleh kombinasi alat musik talempong dan saluang.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Lilin</h3>
+                <img src="3 Sumatra Barat - Tari Lilin.jpg"/>
+                <p>Sumatera Barat</p>
+                <p1>
+                    Tari lilin ini biasanya ditampilkan oleh sekelompok </br>
+                    <span class="read-more-text">
+                        penari perempuan maupun berpasangan yang membawa lilin dan dengan diiringi oleh musik yang dibawakan oleh sekelompok musisi. Para penari ini akan membawa lilin yang menyala pada piring kecil yang dipegang pada kedua telapak tangan mereka.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Tanggai</h3>
+                <img src="4 Sumatera Selatan - Tari Tanggai.jpg"/>
+                <p>Sumatera Selatan</p>
+                <p1>
+                    Tari yang berjudul Tari Tanggai ini masih ditarikan, </br>
+                    <span class="read-more-text">
+                        selain dalam acara pernikahan masyarakat Palembang,tari ini juga ditarikan untuk menyambut tamu yang dihormati, pemerintahan, Organisasi dan pergelaran seni di sekolah-sekolah.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Putri Bekhusek</h3>
+                <img src="4 Sumatera Selatan - Tari Putri Bekhusek.jpg"/>
+                <p>Sumatera Selatan</p>
+                <p1>
+                    Tarian adat yang berasal dari Suku Ogan Komering Ulu </br>
+                    <span class="read-more-text">
+                         yang berarti tarian putri yang sedang bermain. Gerakan Tari Putri Bekhusek juga sangatlah dinamis namun tetap indah, anggun, dan harmonis. Penari menggunakan baju anan panjang dan rok panjang.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Serampit Delapan</h3>
+                <img src="5 Jambi - Tari Serampit Delapan.jpg"/>
+                <p>Jambi</p>
+                <p1>
+                    Tari ini diperkenalkan M. Ceylon sekitar 1970. Tari </br>
+                    <span class="read-more-text">
+                        Selampit Delapan bertujuan merekatkan hubungan pergaulan antar pemuda. Oleh sebab itu setiap gerak tarian menggambarkan landasan dalam pergaulan yaitu kekompakan, keimanan, saling menghargai, dan perilaku bijaksana.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Sekapur Sirih</h3>
+                <img src="5 Jambi - Tari Sekapur Sirih.jpg"/>
+                <p>Jambi</p>
+                <p1>
+                    Tarian ini termasuk jenis tarian penyambutan yang </br>
+                    <span class="read-more-text">
+                        biasanya ditarikan oleh para penari wanita. Dengan berpakaian adat serta diiringi oleh alunan musik pengiring, mereka menari dengan gerakannya yang lemah lembut dan membawakan cerano (wadah) sebagai tanda persembahan.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Campak</h3>
+                <img src="6 Bangka Belitung - Tari Campak.jpg"/>
+                <p>Bangka Belitung</p>
+                <p1>
+                    Tarian ini biasanya dibawakan setelah panen padi atau </br>
+                    <span class="read-more-text">
+                        sepulang dari ume (kebun). Yang menggambarkan keceriaan bujang dan dayang di Kepulauan Bangka Belitung. Tari ini digunakan juga sebagai hiburan dalam berbagai kegiatan seperti penyambutan tamu atau pada pesta pernikahan di Bangka Belitung.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Andun</h3>
+                <img src="7 Bengkulu - Tari Andun.jpg"/>
+                <p>Bengkulu</p>
+                <p1>
+                    Tari Andun adalah salah satu tarian rakyat dari </br>
+                    <span class="read-more-text">
+                        Bengkulu dan dilakukan pada saat pesta perkawinan. Biasanya dilakukan oleh para bujang dan gadis secara berpasangan pada malam hari dengan diringi musik kolintang. Tari Andun ditampilkan di lapangan terbuka.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Bidadari Teminang Anak</h3>
+                <img src="7 Bengkulu - Bidadari Teminang Anak.png"/>
+                <p>Bengkulu</p>
+                <p1>
+                    Tarian ini biasa dilakukan oleh beberapa orang </br>
+                    <span class="read-more-text">
+                        perempuan, dengan salah satunya mengenakan kostum yang berbeda. Penari dengan kostum yang berbeda itu adalah gambaran seorang anak dari bumi yang diangkat sebagai anak oleh bidadari.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Zapin</h3>
+                <img src="8 Riau - Tari Zapin.jpg"/>
+                <p>Riau</p>
+                <p1>
+                    Merupakan tarian yang berasal dari negeri Yaman yang </br>
+                    <span class="read-more-text">
+                        populer dalam kalangan masyarakat Melayu di Indonesia. Zapin diyakini masuk ke wilayah Nusantara dipengaruhi oleh orang-orang Persia dan Arab yang berakulturasi dengan kebudayaan Melayu lokal dalam menyebarkan ajaran Islam dari Timur Tengah pada sekitar abad keempat belas.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Melinting</h3>
+                <img src="9 Lampung - Tari Melinting.jpg"/>
+                <p>Lampung</p>
+                <p1>
+                    Tari Melinting dapat dibawakan oleh penari pria dan </br>
+                    <span class="read-more-text">
+                        penari wanita. Terdapat 8 penari; 4 penari wanita dan 4 penari pria. Pakaian yang dikenakan adalah busana adat Lampung dengan atribut berupa kopiah berwarna emas untuk penari pria dan siger untuk hiasan kepala pada wanita serta kipas untuk masing-masing penari.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Bedana</h3>
+                <img src="9 Lampung - Tari Bedana.png"/>
+                <p>Lampung</p>
+                <p1>
+                    Tari Bedana biasa dibawakan oleh pemuda-pemudi </br>
+                    <span class="read-more-text">
+                        Lampung dalam acara tertentu sebagai ungkapan rasa gembira. Tari Bedana dilakukan dengan dua laki-laki berpasangan dan berkelompok saja. Tari Bedana menggambarkan kehidupan masyarakat Lampung yang bersahabat dan beragama.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Tandak</h3>
+                <img src="10 Kepulauan Riau - Tari Tandak.jpg"/>
+                <p>Kepulauan Riau</p>
+                <P1>
+                    Tari Tandak memiliki pola lantai yang hanya didominasi </br>
+                    <span class="read-more-text">
+                        oleh garis lurus saja. Namun, seiring dengan perkembangan zaman, pola lantai tari Tandak pun mengalami perubahan kearah yang lebih unik dan kreatif. Tarian ini dijadikan sebagai ajang untuk menjodohkan pemuda dan pemudi di daerah Riau.
+                    </span>
+                </P1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+        </section>
+
+        <!-- JAWA -->
+        <?php echo "<img src='bg-jawa.png' width='70' height='90'/>";?>
+        <section id ="jawa">
+            <div class="service">
+                <h3>Tari Topeng</h3>
+                <img src="11 DKI Jakarta - Tari Topeng.jpg"/>
+                <p>DKI Jakarta</p>
+                <p1>
+                    Topeng telah ada di dunia sejak zaman pra-sejarah. </br>
+                    <span class="read-more-text">
+                        Secara luas digunakan dalam tari yang menjadi bagian dari upacara adat atau penceritaan kembali cerita-cerita kuno dari para leluhur. Diyakini bahwa topeng berkaitan erat dengan roh-roh leluhur yang dianggap sebagai interpretasi dewa-dewa.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Rampak Bedug</h3>
+                <img src="22 Banten - Tari Rampak Bedug.jpg"/>
+                <p>Banten</p>
+                <p1>
+                    Rampak Bedug adalah seni bedug dengan </br>
+                    <span class="read-more-text">
+                        menggunakan waditra dan ditabuh secara serempak sehingga menghasilkan irama khas yang enak didengar. Rampak bedug pertama kali dimaksudkan untuk menyambut bulan suci Ramadhan dan Hari Raya Idul Fitri, persis seperti seni ngabedug atau ngadulag.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Jaipong</h3>
+                <img src="12 Jawa Barat - Tari Jaipong.jpg"/>
+                <p>Jawa Barat</p>
+                <p1>
+                    Jaipongan merupakan garapan yang menggabungkan</br>
+                    <span class="read-more-text">
+                        dbeberapa elemen seni tradisi Karawang seperti pencak silat, wayang golek, topeng banjet, ketuk tilu dan lain-lain.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Merak</h3>
+                <img src="12 Jawa Barat - Tari Merak.jpg"/>
+                <p>Jawa Barat</p>
+                <p1>
+                    Tari Merak merupakan salah satu ragam tarian kreasi </br>
+                    <span class="read-more-text">
+                        baru yang mengekpresikan kehidupan binatang, yaitu burung merak. Dari sekian banyaknya tarian yang diciptakan oleh Raden Tjetje Somantri, tari Merak ini merupakan salah satu karyanya yang terkenal hingga kancah internasional.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Gambyong</h3>
+                <img src="13 Jawa Tengah - Tari Gambyong.jpg"/>
+                <p>Jawa Tengah</p>
+                <p1>
+                    Gambyong merupakan salah satu bentuk tarian Jawa</br>
+                    <span class="read-more-text">
+                        klasik yang berasal-mula dari wilayah Surakarta dan biasanya dibawakan untuk pertunjukan atau menyambut tamu. Gambyong bukanlah satu tarian saja yang paling dikenal adalah Tari Gambyong Pareanom (dengan beberapa variasi) dan Tari Gambyong Pangkur (dengan beberapa variasi).
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Serimpi</h3>
+                <img src="14 Yogyakarta - Tari Serimpi.jpg"/>
+                <p>D.I Yogyakarta</p>
+                <p1>
+                    Tari pentas ini dicirikan dengan empat penari melakukan </br>
+                    <span class="read-more-text">
+                        gerak gemulai yang menggambarkan kesopanan, kehalusan budi, serta kelemahlembutan yang ditunjukkan dari gerakan yang pelan serta anggun dengan diiringi suara musik gamelan.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Kuda Lumping</h3>
+                <img src="15 Jawa Timur - Tari Kuda Lumping.jpg"/>
+                <p>Jawa Timur</p>
+                <p1>
+                    Tarian ini berasal dari Ponorogo. Tarian ini </br>
+                    <span class="read-more-text">
+                        menggunakan kuda yang terbuat dari bambu atau bahan lainnya yang di anyam dan dipotong menyerupai bentuk kuda, dengan dihiasi rambut tiruan dari tali plastik atau sejenisnya yang di gelung atau di kepang.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Reog Ponorogo</h3>
+                <img src="15 Jawa Timur - Tari Reog Ponorogo.jpg"/>
+                <p>Jawa Timur</p>
+                <p1>
+                    Tarian tradisional dalam arena terbuka yang berfungsi </br>
+                    <span class="read-more-text">
+                        sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, ditambah beberapa penari bertopeng dan berkuda lumping dan Reog asli dari Indonesia.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+        </section>
+
+        <!-- NUSA TENGGARA & BALI -->
+        <?php echo "<img src='bg-ntbali.png' width='70' height='90'/>";?>
+        <section id ="ntbali">
+            <div class="service">
+                <h3>Tari Kecak</h3>
+                <img src="16 Bali - Tari Kecak.jpg"/>
+                <p>Bali</p>
+                <p1>
+                    Tarian ini dipertunjukkan oleh banyak (puluhan atau lebih) penari laki-laki yang duduk </br>
+                    <span class="read-more-text">
+                        berbaris melingkar dan dengan irama tertentu menyerukan "cak" dan mengangkat kedua lengan, menggambarkan kisah Ramayana saat barisan kera membantu Rama melawan Rahwana.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Pendet</h3>
+                <img src="16 Bali - Tari Pendet.jpg"/>
+                <p>Bali</p>
+                <p1>
+                    Tarian ini melambangkan penyambutan atas turunnya dewata ke alam dunia. Lambat-</br>
+                    <span class="read-more-text">
+                        laun, seiring perkembangan zaman, para seniman Bali mengubah Pendet menjadi "ucapan selamat datang", meski tetap mengandung anasir yang sakral-religius.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Nguri</h3>
+                <img src="29 Nusa Tenggara Barat - Tari Nguri.jpg"/>
+                <p>Nusa Tenggara Barat</p>
+                <p1>
+                    Nguri sendiri berasal dari tradisi pengembalian semangat manakala Sultan selaku </br>
+                    <span class="read-more-text">
+                        pemimpin masyarakat adat Sumbawa tertimpa malapetaka dan sakit. Selain itu, tari nguri merupakan salah satu kewajiban kawula Kesultanan Sumbawa yang dikenal dengan "Sonap Lawang Belau Balu".
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Caci</h3>
+                <img src="30 Nusa Tenggara Timur - Tari Caci.jpg"/>
+                <p>Nusa Tenggara Timur</p>
+                <p1>
+                    Penari yang bersenjatakan cambuk bertindak sebagai penyerang dan seorang </br>
+                    <span class="read-more-text">
+                        lainnya bertahan dengan menggunakan perisai. Tari ini dimainkan saat syukuran musim panen dan ritual tahun baru, upacara pembukaan lahan atau upacara adat besar lainnya, serta dipentaskan untuk menyambut tamu penting.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+        </section>
+
+        <!-- KALIMANTAN -->
+        <?php echo "<img src='bg-kalimantan.png' width='70' height='90'/>";?>
+        <section id ="kalimantan">
+            <div class="service">
+                <h3>Tari Monong</h3>
+                <img src="17 Kalimantan Barat - Tari Monong.png"/>
+                <p>Kalimantan Barat</p>
+                <p1>
+                    Merupakan tari penyembuhan yang terdapat pada </br>
+                    <span class="read-more-text">
+                        seluruh masyarakat Dayak. Tari ini berfungsi sebagai penolak/penyembuh/penangkal penyakit agar si penderita dapat sembuh kembali penari berlaku seperti dukun dengan jampi-jampi.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Tambun & Bungai</h3>
+                <img src="18 Kalimantan Tengah - Tari Tambun & Bungai.jpg"/>
+                <p>Kalimantan Tengah</p>
+                <p1>
+                    Tari tradisional daerah yang mengisahkan </br>
+                    <span class="read-more-text">
+                        kepahlawanan dua tokoh pejuang Palangkaraya, yaitu Tambun dan Bungai dalam kisah perjuangannya mengusir penjajah yang merampas hasil panen rakyat dari bumi pertiwi.
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Giring-Giring</h3>
+                <img src="18 Kalimantan Tengah - Tari Giring-Giring.jpg"/>
+                <p>Kalimantan Tengah</p>
+                <p1>
+                    Tarian tradisional Dayak Kalimantan Tengah yang </br>
+                    <span class="read-more-text">
+                        menggunakan tongkat sebagai atribut tari. Tari ini awalnya berasal dari suku Dayak Ma'anyan yang mendiami daerah Kabupaten Barito Timur dan Kabupaten Barito Selatan provinsi Kalimantan Tengah, biasanya ditampilkan untuk menyambut tamu.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Baksa Kembang</h3>
+                <img src="19 Kalimantan Selatan - Tari Baksa Kembang.jpg"/>
+                <p>Kalimantan Selatan</p>
+                <p1>
+                    Tari klasik dari Keraton Banjar dari Kalimantan Selatan. </br>
+                    <span class="read-more-text">
+                        Tari ini saat itu merupakan kegiatan penyambutan tamu yang dilakukan oleh putri-putri keraton Banjar. Gambaran dari tarian ini merupakan kelembutan tuan rumah dalam menyambut dan menghormati tamu.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Kancet Papatai </h3>
+                <img src="20 Kalimantan Timur - Tari Kancet Papatai.png"/>
+                <p>Kalimantan Timur</p>
+                <p1>
+                    Merupakan kesenian tradisional dalam bentuk tari-</br>
+                    <span class="read-more-text">
+                        tarian perang yang bercerita tentang seorang pahlawan Dayak Kenyah yang sedang berperang melawan musuh. Gerakan tarian ini sangat lincah, gesit, penuh semangat dan kadang-kadang diikuti oleh pekikan para penari.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Jepen</h3>
+                <img src="20 Kalimantan Timur - Tari Jepen.jpg"/>
+                <p>Kalimantan Timur</p>
+                <p1>
+                    Merupakan kesenian khas Kalimantan Timur yang </br>
+                    <span class="read-more-text">
+                        dikembangkan oleh suku Kutai dan suku Banjar yang mendiami kawasan pesisir Sungai Mahakam, dengan ragam gerak yang dipengaruhi oleh kebudayaan Melayu dan Islam.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Mance</h3>
+                <img src="21 Kalimantan Utara - Tari Mance.jpg"/>
+                <p>Kalimantan Utara</p>
+                <p1>
+                    Tari Mance merupakan tarian Kalimantan Utara yang </br>
+                    <span class="read-more-text">
+                        sangat digemari sebagaian besar pemuda di daerah Bulungan. Tarian ini memiliki gerakan yang sama dengan silat, akan tetapi lebih luwes dan terlihat seperti tari untuk hiburan.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+        </section>
+
+        <!-- SULAWESI -->
+        <?php echo "<img src='bg-sulawesi.png' width='70' height='90'/>";?>
+        <section id = "sulawesi">
+            <div class="service">
+                <h3>Tari Maengket</h3>
+                <img src="23 Sulawesi Utara - Tari Maengket.jpg"/>
+                <p>Sulawesi Utara</p>
+                <p1>
+                    Merupakan tarian rakyat yang berasal dari Minahasa. </br>
+                    <span class="read-more-text">
+                        Maengket dibawakan oleh penari perempuan maupun laki-laki dengan memakai pakaian putih. Tarian ini menggunakan gerak dan irama yang sederhana. Iringan untuk Maengket adalah musik tambur.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Dero</h3>
+                <img src="24 Sulawesi Tengah - Tari Dero.jpg"/>
+                <p>Sulawesi Tengah</p>
+                <p1>
+                    Sebuah tarian yang dilakukan lebih dari satu orang </br>
+                    <span class="read-more-text">
+                        atau dilakukan secara bersama-sama, yang melambangkan suka cita atau kebahagiaan serta ungkapan rasa syukur kepada Tuhan. Tarian ini merupakan salah satu tradisi masyarakat Suku Pamona yang masih dipertahankan hingga sekarang.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Kipas Pakarena</h3>
+                <img src="25 Sulawesi Selatan - Tari Kipas Pakarena.jpg"/>
+                <p>Sulawesi Selatan</p>
+                <p1>
+                    Sejenis tarian yang berasal dari kerajaan Gowa <br>
+                    <span class="read-more-text">
+                        Makasar Sulawesi Selatan , Berasal dari kata "karena " yang artinya Bermain. dan "pa" yang berati pelakunya. Tarian ini menjadi kekuatan tradisi budaya masyarakat Gowa yang sudah berabad abad lamanya. Tarian ini menggambarkan perpisahan Boting Langi (khayangan) dengan Lino (bumi).
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Bulu Londong</h3>
+                <img src="26 Sulawesi Barat - Tari Bulu Londong.jpg"/>
+                <p>Sulawesi Barat</p>
+                <p1>
+                    Tarian ini merupakan tarian yang dibawakan oleh </br>
+                    <span class="read-more-text">
+                        para penari pria dengan berpakaian dan bersenjata seperti layaknya para prajurit pada zaman dahulu. Tarian ini dilakukan sebagai ungkapan rasa gembira dan rasa syukur atas keberhasilan serta kemenangan yang mereka dapatkan.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Lulo Alu</h3>
+                <img src="27 Sulawesi Tenggara - Tari Lulo Alu.jpg"/>
+                <p>Sulawesi Tenggara</p>
+                <p1>
+                    Tarian ini dilaksanakan sebagai salah satu ritual adat </br>
+                    <span class="read-more-text">
+                        Tokotua atas rasa syukur dan terima kasih kepada sang pencipta atas melimpahnya rezki dari hasil panen beras pada masa lalu. Tarian ini dibawakan 12 penari yang dibagi atas dua peranan. tarian ini masih sering dilakukan pada upacara adat penyambutan suku Tokotua terhadap tamu-tamu penting yang berkunjung didaerah tersebut.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Saronde</h3>
+                <img src="28 Gorontalo - Tari Saronde.jpg"/>
+                <p>Gorontalo</p>
+                <p1>
+                    Tarian yang terinspirasi atau berangkat dari tradisi </br>
+                    <span class="read-more-text">
+                        pernikahan adat masyarakat Gorontalo. Tari Saronde biasanya ditampilkan oleh para penari pria dan penari wanita secara berpasangan. Dahulu, tarian Saronde digunakan sebagai sarana Molihe Huali yakni mengintip calon istri.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+        </section>
+
+        <!-- MALUKU & PAPUA -->
+        <?php echo "<img src='bg-malpu.png' width='70' height='90'/>";?>
+        <section id = "malpu"> 
+            <div class="service">
+                <h3>Tari Lenso</h3>
+                <img src="31 Maluku - Tari Lenso.webp"/>
+                <p>Maluku</p>
+                <p1>
+                    Adalah tarian muda-mudi dari daerah Maluku </br>
+                    <span class="read-more-text">
+                        dan Minahasa, Sulawesi Utara. Tarian ini biasanya di bawakan secara ramai-ramai bila ada Pesta. Baik Pesta Pernikahan, Panen Cengkih, Tahun Baru dan kegiatan lainnya. Tarian ini juga sekaligus ajang Pencarian jodoh bagi mereka yang masih bujang, di mana ketika lenso atau selendang diterima merupakan tanda cinta diterima.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Cakalele</h3>
+                <img src="32 Maluku Utara - Tari Cakalele.jpg"/>
+                <p>Maluku Utara</p>
+                <p1>
+                    Adalah tarian perang tradisional Maluku yang digunakan </br>
+                    <span class="read-more-text">
+                        untuk menyambut tamu ataupun dalam perayaan adat. Tarian ini dilakukan secara berpasangan dengan iringan musik drum, flute, bia (sejenis musik tiup). Tarian ini merupakan penghormatan atas nenek moyang bangsa Maluku yang merupakan pelaut.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Poco-Poco</h3>
+                <img src="32 Maluku Utara - Tari Poco-Poco.jpg"/>
+                <p>Maluku Utara</p>
+                <p1>
+                    Merupakan jenis tarian modern asli Indonesia yang <br>
+                    <span class="read-more-text">
+                        kemudian banyak dijadikan sebagai gerakan dasar pada senam irama. Tarian ini mengambil unsur-unsur gerakan tarian dari berbagai daerah di Indonesia.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Selamat Datang</h3>
+                <img src="33 Papua Barat - Tari Selamat Datang.png"/>
+                <p>Papua Barat</p>
+                <p1>
+                    Merupakan salah satu tarian tradisional penyambutan </br>
+                    <span class="read-more-text">
+                        yang berasal dari daerah Papua. Tarian ini biasanya dibawakan oleh penari pria dan wanita untuk menyambut tamu kehormatan atau tamu penting yang berkunjung ke sana.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+            <div class="service">
+                <h3>Tari Yospan</h3>
+                <img src="34 Papua - Tari Yospan.jpg"/>
+                <p>Papua</p>
+                <p1>
+                    Adalah jenis tarian Kontemporer yang menggambarkan </br>
+                    <span class="read-more-text">
+                        pergaulan atau persahabatan pada kaum muda-mudi Biak Numfor. Tarian ini muncul pada tahun 1960 yang kemudian sempat menjadi bagian dari senam kesehatan jasmani (SKJ) di sejumlah instansi pemerintahan. Yospan adalah bentuk akronim dari kata Yosim Pancar.
+                    </span>
+                </p1>
+                <span class="read-more-btn">read more...</span>
+            </div>
+        </section>
+    </div>
+
+    <?php echo "<img src='pq2.jpg'/>";?>
+
+    <!-- javascript -->
+    <script src="script-tari.js"></script>
+
+    <footer>
+        <div class="footer">
+            <p>Made With &#169; 2022. Get to Know 'Indonesian Culture'</p>
+        </div>
+    </footer>
+
+</body>
+</html>

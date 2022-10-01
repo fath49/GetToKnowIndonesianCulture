@@ -1,0 +1,94 @@
+crop ke 3:2
+
+note:
+
+PULAU SUMATERA
+1.Nanggroe Aceh Darussalam	= Krong Bade 
+2.Sumatera Utara		= Bolon
+3.Sumatera Barat		= Rumah Gadang 
+4.Riau				= Selaso Jatuh Kembar 
+5.Kepulauan Riau		= Belah Bubung
+6.Jambi				= Panggung Kajang Leko 
+7.Sumatera Selatan 		= Limas 
+8.Bangka Belitung 		= Rumah Rakit
+9.Bengkulu 			= Bubungan Lima 
+10.Lampung 			= Nuwou Sesat [?]
+
+PULAU JAWA
+11.Betawi/DKI Jakarta 		= Kebaya [?]
+12.Rumah adat Banten 		= Baduy 
+13.Jawa Barat 			= Rumah Sunda
+14.Jawa Tengah			= Joglo
+15.Yogyakarta 			= Bangsal Kencono
+16.Jawa Timur 			= Joglo Situbondo
+
+PULAU NUSA TENGGARA & BALI
+17.Bali 			= Gapura Candi Bentar
+18.NTB 				= Dalam Loka
+19.NTT 				= Rumah Musalaki
+
+PULAU KALIMANTAN
+20.Kalimantan Barat 		= Panjang
+21.Kalimantan Tengah 		= Betang
+22.Kalimantan Selatan		= Rumah Bubungan Tinggi
+23.Kalimantan Utara 		= Rumah Baloy
+24.Kalimantan Timur 		= Rumah Lamin
+
+PULAU SULAWESI
+25.Sulawesi Barat 		= Rumah Boyang
+26.Sulawesi Tengah 		= Rumah Tambi
+27.Sulawesi Utara 		= Rumah Walewangko
+28.Sulawesi Tenggara 		= Banua Tada
+29.Toraja/sulsel		= Tongkonan
+30.Gorontalo			= Rumah Dulohupa
+
+PULAU MALUKU & PAPUA
+31.Maluku 			= Rumah Baileo
+32.Maluku Utara			= Sasadu
+33.Papua Barat 			= Honai
+34.Papua 			= Kariwari
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

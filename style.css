@@ -1,0 +1,218 @@
+
+* /* keseluruhan */ {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto; /* 'auto' yaitu posisi di tengah */
+    position: relative;
+}
+
+.logo img {
+    max-width: 3cm;
+    align-content: center;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    display: flex; /* 'flex' membuat seperti kolom2 pada menu */
+    line-height: 80px; 
+    position: sticky; /* 'sticky' biar posisi menu ttp di atas */
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url(gambar/Scene-20-3.jpg);
+    z-index: 1;
+    border-bottom: 1px solid #BB6464;
+}
+
+nav ul {
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left; /* menuju ke bagian kiri */
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px; /* atas kanan bawah kiri */
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a:hover {
+    align-content: center;
+    background-color: #8E3200;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#home img {
+    max-width: 13cm;
+    pad: 1em;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #BB6464;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #614124;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-coklat {
+    background: #BF8B67;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-coklat:hover {
+    background: #9D5353;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'comic sans ms';
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+/* KONTAK */
+#kontak {
+    background-image: url(gambar/Scene-20-3.jpg);
+    padding: 1em;
+}
+
+#kontak h2 {
+    color: white;
+}
+
+.contact {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.kontak-deskripsi {
+    width: 20%;
+    margin: 0 auto;
+    background-color: none;
+    color: white;
+}
+
+.kontak-logo img {
+    max-width: 6cm;
+    align-content: center;
+    float: left;
+    align-items: center;
+}
+
+.footer{
+    padding: 20px;
+    color: #000;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo {
+        display: block;
+        width: 100%;
+        /*text-align: center;*/
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact {
+        display: block;
+    }
+
+    .contact img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+}

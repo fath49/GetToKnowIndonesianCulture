@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #FFEF82;
+    font-size: 100%;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+/* Navigasi */
+h1 {
+    padding: 1em;
+    text-align: center;
+    background-image: url(scene-with-island-sea_1308-29923-removebg-preview.png);
+    background-color: #EFD345;
+}
+
+.menu {
+    padding: 5px;
+    order: -1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #EFD345;
+}
+
+.menu .brand {
+    font-size: 1.3em;
+    color: #333;
+}
+
+.menu ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+}
+
+.menu a {
+    display: block;
+    background-color: none;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.menu ul li a:hover {
+    align-content: center;
+    background-color: #8E3200;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+h2 {
+    padding: 1em;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+    color: black;
+}
+
+/* read more */
+.read-more-btn{
+    color: #0984e3;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
+}
+
+/* pulau */
+#sumatera {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-2';
+}
+
+#jawa {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1'
+        'feature-3 feature-3';
+}
+
+#ntbali {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1'
+        'feature-3 feature-3';
+}
+
+#kalimantan {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1'
+        'feature-3 feature-3';
+}
+
+#sulawesi {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1'
+        'feature-3 feature-3';
+}
+
+#malpu {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1'
+        'feature-3 feature-3';
+}
+
+/* Container */
+.container {
+    display: grid;
+    gap: 10px;
+}
+
+.features {
+    background-color: black;
+    color: white;
+    display: grid;
+    margin: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    display: block;
+}
+
+.features h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+
+.features p {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: black;
+    text-align: center;
+    margin-bottom: 0.25cm;
+}
+
+
+
+.features p1 {
+    padding: 2em;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: black;
+    text-align: center;
+}
+
+
+.feature-1 {
+    min-height: 300px;
+    grid-area: feature-1 feature-2;
+    background-image: none;
+}
+
+.feature-2 {
+    min-height: 300px;
+    grid-area: feature-2 feature-2;
+    background-image: none;
+}
+
+footer {
+    padding: 20px;
+    background-color: #EFD345;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}

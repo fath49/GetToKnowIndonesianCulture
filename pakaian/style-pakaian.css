@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #c82c2c;
+    font-size: 100%;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+/* Navigasi */
+h1 {
+    padding: 1em;
+    text-align: center;
+    background-image: url(scene-with-island-sea_1308-29923-removebg-preview.png);
+    background-color: #ddd;
+}
+
+.menu {
+    padding: 5px;
+    order: -1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #ddd;
+}
+
+.menu ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+}
+
+.menu a {
+    display: block;
+    /*background-color: black;*/
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.menu ul li a:hover {
+    align-content: center;
+    background-color: #8E3200;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+h2 {
+    padding: 1em;
+    color: white;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+    color: #ddd;
+}
+
+/* Container */
+.container {
+    display: grid;
+    gap: 5px;
+}
+
+#sumatera {
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1 feature-1'
+        'feature-2 feature-2 feature-2'
+        'feature-3 feature-3 feature-3'
+        'feature-4 feature-4 feature-4';
+}
+
+#jawa {
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1 feature-1'
+        'feature-2 feature-2 feature-2'
+        'feature-3 feature-3 feature-3'
+        'feature-4 feature-4 feature-4';
+}
+
+#ntbali {
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1 feature-1'
+        'feature-2 feature-2 feature-2'
+        'feature-3 feature-3 feature-3'
+        'feature-4 feature-4 feature-4';
+}
+
+#kalimantan {
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1 feature-1'
+        'feature-2 feature-2 feature-2'
+        'feature-3 feature-3 feature-3'
+        'feature-4 feature-4 feature-4';
+    
+}
+
+#sulawesi {
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1 feature-1'
+        'feature-2 feature-2 feature-2'
+        'feature-3 feature-3 feature-3'
+        'feature-4 feature-4 feature-4';
+    
+}
+
+#malpu {
+    display: grid;
+    grid-template-areas: 
+        'feature-1 feature-1 feature-1'
+        'feature-2 feature-2 feature-2'
+        'feature-3 feature-3 feature-3'
+        'feature-4 feature-4 feature-4';
+    
+}
+
+.features {
+    background-color: black;
+    color: white;
+    display: grid;
+    cursor: pointer; /* 'cursor' diubah pointer nya jadi kek nunjuk */
+    margin: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.features p {
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.feature-1 {
+    min-height: 300px;
+    grid-area: feature-1 feature-1;
+    background-image: none;
+    font-size: 20px;
+}
+
+.feature-2 {
+    min-height: 300px;
+    grid-area: feature-2 feature-2;
+    background-image: none;
+
+}
+
+.feature-3 {
+    min-height: 300px;
+    grid-area: feature-3 feature-3;
+    background-image: none;
+    
+}
+
+.feature-4 {
+    min-height: 300px;
+    grid-area: feature-4 feature-4;
+    background-image: none;
+}
+
+.feature-5 {
+    min-height: 300px;
+    grid-area: feature-4 feature-4;
+    background-image: none;
+}
+
+.feature-6 {
+    min-height: 300px;
+    grid-area: feature-4 feature-4;
+    background-image: none;
+}
+
+footer {
+    padding: 20px;
+    background-color: #ddd;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .container {
+        display: block;
+    }
+
+    .container img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
